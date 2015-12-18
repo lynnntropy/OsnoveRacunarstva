@@ -6,7 +6,7 @@ function output = ZbirNaSporednojDijagonali(matrix)
 
 sum_of_elements = 0;
 
-[sizex, sizey] = size(matrix);
+[sizey, sizex] = size(matrix);
 
 if sizex ~= sizey
 	disp('Matrica nije kvadratna.');
