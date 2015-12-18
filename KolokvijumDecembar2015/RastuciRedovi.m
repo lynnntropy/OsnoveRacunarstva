@@ -6,10 +6,10 @@
 
 function output = RastuciRedovi(a, n)
 
-outputMatrix = [];
+output_matrix = [];
 
 for i = 0:(n-1)
-	outputMatrix = [outputMatrix; a + i];
+	output_matrix = [output_matrix; a + i];
 end
 
-output = outputMatrix;
+output = output_matrix;

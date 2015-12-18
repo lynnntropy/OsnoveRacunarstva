@@ -2,7 +2,7 @@
 % Ulaz je vektor i prirodni broj n.
 % Izlaz je matrica koja ima n kolona.
 % Kolone su sačinjene od vektora koji je bio na ulazu,
-% i svaka parna kolona ima ibrnuti redosled.
+% i svaka parna kolona ima obrnuti redosled.
 
 function output = ParneKolone(vektor, n)
 
