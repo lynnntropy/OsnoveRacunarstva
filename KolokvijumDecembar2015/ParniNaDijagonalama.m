@@ -4,7 +4,7 @@
 
 function output = ParniNaDijagonalama(matrix)
 
-elementCount = 0;
+element_count = 0;
 
 [sizex, sizey] = size(matrix);
 
@@ -18,9 +18,9 @@ end
 for x = 1:sizex
 	for y = 1:sizey
 		if x == y
-			currentElement = matrix(y, x);
-			if mod(currentElement, 2) == 0
-				elementCount = elementCount + 1;
+			current_element = matrix(y, x);
+			if mod(current_element, 2) == 0
+				element_count = element_count + 1;
 			end
 		end
 	end
@@ -31,12 +31,12 @@ end
 for x = 1:sizex
 	for y = 1:sizey
 		if x == sizey - y + 1
-			currentElement = matrix(y, x);
-			if mod(currentElement, 2) == 0
-				elementCount = elementCount + 1;
+			current_element = matrix(y, x);
+			if mod(current_element, 2) == 0
+				element_count = element_count + 1;
 			end
 		end
 	end
 end
 
-output = elementCount;
+output = element_count;

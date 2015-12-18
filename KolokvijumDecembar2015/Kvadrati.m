@@ -5,10 +5,10 @@
 
 function output = Kvadrati(n)
 
-outputVector = []
+output_vector = []
 
 for i = 1:n
-	outputVector(i) = i^2;
+	output_vector(i) = i^2;
 end
 
-output = outputVector;
+output = output_vector;

@@ -4,7 +4,7 @@
 
 function output = ZbirNaSporednojDijagonali(matrix)
 
-sumOfElements = 0;
+sum_of_elements = 0;
 
 [sizex, sizey] = size(matrix);
 
@@ -16,10 +16,10 @@ end
 for x = 1:sizex
 	for y = 1:sizey
 		if x == sizey - y + 1
-			currentElement = matrix(y, x);
-			sumOfElements = sumOfElements + currentElement;
+			current_element = matrix(y, x);
+			sum_of_elements = sum_of_elements + current_element;
 		end
 	end
 end
 
-output = sumOfElements;
+output = sum_of_elements;
