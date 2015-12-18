@@ -6,7 +6,7 @@ function output = ParniNaDijagonalama(matrix)
 
 element_count = 0;
 
-[sizex, sizey] = size(matrix);
+[sizey, sizex] = size(matrix);
 
 if sizex ~= sizey
 	disp('Matrica nije kvadratna.');
